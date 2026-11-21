@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="calc" aria-label="Calculator">
+  <div class="screen" aria-live="polite">
+    <div class="expr" id="expr"></div>
+    <div class="out" id="out">0</div>
+  </div>
+  <div class="keys" id="keys">
+    <button class="util" data-a="clear">AC</button>
+    <button class="util" data-a="sign">+/−</button>
+    <button class="util" data-a="percent">%</button>
+    <button class="op" data-a="op" data-v="÷">÷</button>
+    <button data-a="num" data-v="7">7</button>
+    <button data-a="num" data-v="8">8</button>
+    <button data-a="num" data-v="9">9</button>
+    <button class="op" data-a="op" data-v="×">×</button>
+    <button data-a="num" data-v="4">4</button>
+    <button data-a="num" data-v="5">5</button>
+    <button data-a="num" data-v="6">6</button>
+    <button class="op" data-a="op" data-v="−">−</button>
+    <button data-a="num" data-v="1">1</button>
+    <button data-a="num" data-v="2">2</button>
+    <button data-a="num" data-v="3">3</button>
+    <button class="op" data-a="op" data-v="+">+</button>
+    <button class="zero" data-a="num" data-v="0">0</button>
+    <button data-a="dot">.</button>
+    <button class="eq" data-a="eq">=</button>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
